@@ -321,6 +321,7 @@ Using the board supported a more disciplined workflow by breaking the capstone i
 - Python - core language used for ETL, EDA, and machine learning workflows.
 - Jupyter Notebook - interactive environment used to run and document each analysis stage.
 - pandas - used to read CSV files, clean data, and manipulate DataFrames.
+- numpy - array handling, and model-related feature processing.
 - matplotlib - used for foundational charting and plot customisation.
 - seaborn - used for higher-level statistical visualisations and cleaner plot styling.
 - scikit-learn - used to train, evaluate, and compare classification models.
