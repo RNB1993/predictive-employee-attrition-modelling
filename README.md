@@ -227,8 +227,6 @@ The Power BI dashboard was designed as a minimum viable product (MVP) to help st
 
 ![Power BI dashboard overview](images/powerbi-dashboard-overview.png)
 
-### Optional Additional Dashboard Screenshots
-
 ![Power BI dashboard page 2](images/powerbi-dashboard-page-2.png)
 
 ![Power BI dashboard page 3](images/powerbi-dashboard-page-3.png)
@@ -291,10 +289,9 @@ Project delivery was tracked using a GitHub Projects board, which was used to or
 
 Using the board supported a more disciplined workflow by breaking the capstone into manageable stages and making progress visible throughout the build. The live GitHub Projects board can be viewed here: [https://github.com/users/RNB1993/projects/3](https://github.com/users/RNB1993/projects/3).
 
-**Project board screenshot placeholder:**  
-`![GitHub Projects board](images/github-projects-board.png)`
+**Project board screenshot:**  
 
-A screenshot of the GitHub Projects board can also be included in the repository to evidence task tracking and project organisation.
+![GitHub Projects board](images/github-projects-board.png)
 
 ---
 
@@ -324,7 +321,7 @@ A screenshot of the GitHub Projects board can also be included in the repository
 
 ## How to Run the Project
 
-1. Clone this repository.
+1. Clone this repository and create a Python venv environment. 
 2. Install the required dependencies from `requirements.txt`.
 3. Open the notebooks in Jupyter Notebook or VS Code.
 4. Run the ETL notebook first to generate the cleaned dataset.
@@ -382,20 +379,30 @@ As the current dashboard is positioned as an MVP, there is clear scope for futur
 
 ---
 
-## Credits
-
 ### Content and inspiration
 
 - Code Institute assessment guidance and project structure
 - Public dataset provider: `pavansubhasht/ibm-hr-analytics-attrition-dataset/`
 
+---
+
 ### Acknowledgements
 
-- Bootcamp materials and walkthrough references
-- Any third-party articles, tutorials, or code snippets used during development should be listed here
+- Bootcamp materials
++ Chapater: Advanced data analytics, Subsections: visualisation machine learning (Advanced ML methodologies using Python, Case studies of implementing AI/ML models in different industries)
+- Walkthrough references 
++ [power bi heatmap guide](https://www.youngurbanproject.com/power-bi-heatmap/)
++ [Influncers guide on creation](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers?tabs=powerbi-desktop))
+
+---
+## Use of AI Tools
+AI-assisted tools were used to support hypothesis development,
+code refinement (Microsoft copilot), and narrative clarity (Grammarly premium).
+All AI-assisted suggestions were reviewed and validated
+against the dataset prior to inclusion.
 
 ---
 
 ## Disclaimer
 
-This project was created for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning bootcamp portfolio submission.
+This project was created for educational purposes as part of the Code Institute Advanced Data Analytics, Visualisation and Machine Learning bootcamp portfolio submission (number 2).
