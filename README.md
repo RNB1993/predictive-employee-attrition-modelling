@@ -271,7 +271,10 @@ predictive-employee-attrition-modelling/
 │
 ├── data/
 │   ├── raw/
+│   │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │   └── processed/
+│       ├── attrition_clean_v1.csv
+│       └── logistic_regression_coefficients.csv
 │
 ├── dashboard/
 │   └── 04_employee_attrition_overview_v1.pbix
