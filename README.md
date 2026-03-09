@@ -152,36 +152,48 @@ These were selected to ensure the project demonstrates a range of visual techniq
 
 **Result:** Supported  
 **Summary:** The visual analysis supports the hypothesis that lower compensation may be associated with higher attrition. This suggests that salary competitiveness may play an important role in employee retention, particularly for lower salary bands where attrition appears more concentrated.
+
+
 ![HP1](images/hp1.png)
 
 ### Hypothesis 2: Overtime is associated with higher attrition
 
 **Result:** Supported  
 **Summary:** Employees who work overtime show a noticeably higher attrition rate than those who do not. This suggests that workload pressure and possible burnout may be contributing to employee turnover.
+
+
 ![HP2](images/hp2.png)
 
 ### Hypothesis 3: Lower job satisfaction is associated with higher attrition
 
 **Result:** Supported  
 **Summary:** Employees reporting lower job satisfaction appear more likely to leave the organisation, while higher satisfaction levels show comparatively lower attrition. This indicates that employee engagement and workplace satisfaction are likely to be important retention factors.
+
+
 ![HP3](images/hp3.png)
 
 ### Hypothesis 4: Time since last promotion is associated with higher attrition
 
 **Result:** Partially supported  
 **Summary:** Employees who left the organisation appear to have waited longer for promotion than those who remained. The pattern suggests that limited career progression may contribute to attrition, although the relationship is not strong enough to treat it as a sole driver.
+
+
 ![HP4](images/hp4.png)
 
 ### Hypothesis 5: Larger commute distance is associated with higher attrition
 
 **Result:** Not supported  
 **Summary:** The analysis shows only a small difference in commute distance between employees who left and those who stayed. Commute distance may affect some individuals, but it does not appear to be a major attrition driver in this dataset.
+
+
 ![HP5](images/hp5.png)
 
 ### Hypothesis 6: Shorter tenure is associated with higher attrition
 
 **Result:** Supported  
 **Summary:** Attrition is more concentrated among employees with shorter tenure, suggesting that many employees leave during the earlier stages of employment. This highlights early-stage retention, onboarding, and employee support as important areas for improvement.
+
+
 ![HP6](images/hp6.png)
 
 ---
@@ -306,22 +318,23 @@ Using the board supported a more disciplined workflow by breaking the capstone i
 
 ### Programming and analysis
 
-- Python
-- Jupyter Notebook
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
+- Python - core language used for ETL, EDA, and machine learning workflows.
+- Jupyter Notebook - interactive environment used to run and document each analysis stage.
+- pandas - used to read CSV files, clean data, and manipulate DataFrames.
+- matplotlib - used for foundational charting and plot customisation.
+- seaborn - used for higher-level statistical visualisations and cleaner plot styling.
+- scikit-learn - used to train, evaluate, and compare classification models.
 
 ### Dashboarding
 
-- Power BI
+- Power BI - used to build the interactive MVP dashboard for stakeholder exploration.
+- DAX - used to create small dimension tables to support the fact table in the dashboard.
 
 ### Version control and documentation
 
-- Git
-- GitHub
-- Markdown
+- Git - used for version control and tracking incremental project changes.
+- GitHub - used to host the repository and manage workflow via GitHub Projects.
+- Markdown - used to document the project structure, methods, and findings in the README.
 
 ---
 
